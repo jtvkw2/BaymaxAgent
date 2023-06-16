@@ -1,0 +1,3 @@
+[submodule "modules/Elastic-Learning-Intelligence"]
+	path = modules/Elastic-Learning-Intelligence
+	url = https://github.com/jtvkw2/Elastic-Learning-Intelligence.git
