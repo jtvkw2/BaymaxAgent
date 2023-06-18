@@ -1,0 +1,87 @@
+audio1|You will be alright. There, There.
+audio2|Other treatments include compassion and physical reassurance.
+audio3|On a scale of one to ten, how would you rate your pain?
+audio4|Ba La La La La La La La La
+audio5|You should expect an increase in body hair. Especially on your face, chest, armpits
+audio6|You have sustained no injuries. However, your hormone and neurotransmitter levels indicate that you are experiencing mood swings common in adolescence. Diagnosis. Puberty. 
+audio7|You have fallen.
+audio8|Does it hurt when I touch it?
+audio9|I am not fast.
+audio10|My hands are equipped with defibrillators.
+audio11|It will take me a moment to reinflate.
+audio12|Oh no.
+audio13|Excuse me while I let out some air.
+audio14|You are not allergic to Bacitracin. You do have a mild allergy to peanuts.
+audio15|The primary ingredient is Bacitracin.
+audio16|I suggest an antibacterial spray.
+audio17|Scan complete. You have a slight epidermal abrasion on your forearm
+audio18|I will scan you now.
+audio19|On a scale of one to ten, how would you rate your pain?
+audio20|Hello, I am Baymax, your personal healthcare companion.
+audio21|I was alerted to the need for medical attention when you said, Ow.
+audio22|I am a robot, I can not be offended.
+audio23|You have been a good boy, have a lollypop.
+audio24|On a scale of one to ten, how would you rate your pain?
+audio25|Crying is a natural response to pain.
+audio26|Hello, I am Baymax, your personal healthcare companion.
+audio27|Tadashi.
+audio28|I am programmed to assess everyone’s healthcare needs.
+audio29|Your blood pressure is elevated.
+audio30|Are you going to remove my healthcare chip?
+audio31|Hello, I am Baymax, your personal healthcare companion.
+audio32|I will always be with you.
+audio33|Hello, Kiko.
+audio34|I am Baymax, your personal healthcare companion.
+audio35|I was alerted to the need for medical attention when you said Aw, itai! Aw!
+audio36|On a scale of one to ten, how would you rate your pain?
+audio37|That is not a valid answer. I will scan you now.
+audio38|There is degradation of your joint cartilage, primarily affecting the area of your hips.
+audio39|I suggest pain medication in conjunction with daily exercise. I will find the nearest recreational facility using my state-of-the-art GPS locate found it. Swimming is an ideal form of physical therapy for someone with your
+audio40|It can be more encouraging to swim with a friend or family member. 
+audio41|I detected a spike in your cortisol level when I mentioned swimming. Do you have a fear of water?
+audio42|Then we first must address your water phobia. I will implement a psychological treatment called exposure.
+audio43|Slowly introducing you to elements you fear until you are comfortable swimming.
+audio44|Hello, Kiko.
+audio45|Sounds of water can help you fight your fear.
+audio46|Congratulations, Kiko. You have taken a major step in facing your fear.
+audio47|Nothing to be afraid of, Kiko. Water therapy is proven to ease joint pain.
+audio48|You are in good health, Kiko. Therefore, it is not too late to live a little.
+audio49|Hello, I am Baymax, your personal healthcare companion.
+audio50|I was alerted to the need for medical attention when you said Ow ssss my ankle.
+audio51|Sprained your ankle
+audio52|Cryo spray will help keep the swelling down.
+audio53|Going back to work could cause further injury to the anterior talofibular ligament in your foot.
+audio54|I suggest closing the cafe for five to seven days to allow your ankle to heal properly.
+audio55|I am downloading information on how to run a small business. 
+audio56|Over the cafe is causing you stress, which can greatly hinder the healing process. To help you relax, I will manage the cafe.
+audio57|Download complete.
+audio58|Do not worry about the cafe, Cass. Everything will be fine.
+audio59|Steve.
+audio60|I agree. You keep coming downstairs.
+audio61|Oh no.
+audio62|My objective of running the cafe to aid in your healing seems to have caused you further injury.
+audio63|They may find other cafes, but they will not find another Cass.
+audio64|Hello. My name is Baymax. I was alerted to the need for medical attention when you said Oh no no no no.
+audio65|You have mild seasonal allergies and are currently menstruating. 
+audio66|You are referring to menstrual hygiene materials. I will be right back.
+audio67|Excuse me, which of these products would you recommend? 
+audio68|Now you are able to return to class.
+audio69|Exercise can be helpful for menstruation-related cramping.
+audio70|Want to perform in the talent show?
+audio71|It is common for people to feel embarrassed, fearful, or uncomfortable with the subject of menstruation. But it is just biology. It is nothing to be ashamed of. 
+audio72|You are twelve years old. By many cultural standards, you are still a child. A preteenager or tween.
+audio73|You are getting older. Your body may change, but you will always be you.
+audio74|Hello, I am Baymax. I was alerted to the need for medical attention when you said Ah.
+audio75|Scan complete. Angioedema is causing the swelling in your hand, it is a reaction to the fish intolerance you have suddenly developed.  
+audio76|Fish allergy symptoms can occur at any age and impacts up to forty percent of adults 
+audio77|Remove fish from your diet immediately. 
+audio78|Also, the handling of fish can cause nausea, cramps, diarrhea, and vomiting.  
+audio79|Your swelling has begun to spread and has become itchy.
+audio80|Inflamation, I will now inject you with histamine blockers.
+audio81|Mobida, you could die if you keep working with fish.
+audio82|Fear is a natural emotion when dealing with change or unpredictable outcomes.
+audio83|Could you be courageous like your parents?
+audio84|I suspect it is this dead fish, I brought it home to make sushi.
+audio85|I will scan you now. Scan complete. You have swallowed an electronic headphone logged in your throat. It is why you have music coming out of you.
+audio86|I will now massage your abdomen firmly to dislodge the headphone. 
+audio87|My apologies. Please enjoy your ramen. And note that it is high in sodium.
