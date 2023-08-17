@@ -1,0 +1,47 @@
+[0.895s] Invoking command in '/com.docker.devenvironments.code/ros2_ws/src/control_movement': PYTHONPATH=/com.docker.devenvironments.code/ros2_ws/build/control_movement/prefix_override:/com.docker.devenvironments.code/ros2_ws/install/control_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control_movement build --build-base /com.docker.devenvironments.code/ros2_ws/build/control_movement/build install --record /com.docker.devenvironments.code/ros2_ws/build/control_movement/install.log --single-version-externally-managed
+[1.196s] running egg_info
+[1.201s] creating ../../build/control_movement/control_movement.egg-info
+[1.208s] writing ../../build/control_movement/control_movement.egg-info/PKG-INFO
+[1.219s] writing dependency_links to ../../build/control_movement/control_movement.egg-info/dependency_links.txt
+[1.228s] writing entry points to ../../build/control_movement/control_movement.egg-info/entry_points.txt
+[1.233s] writing requirements to ../../build/control_movement/control_movement.egg-info/requires.txt
+[1.239s] writing top-level names to ../../build/control_movement/control_movement.egg-info/top_level.txt
+[1.248s] writing manifest file '../../build/control_movement/control_movement.egg-info/SOURCES.txt'
+[1.265s] reading manifest file '../../build/control_movement/control_movement.egg-info/SOURCES.txt'
+[1.272s] writing manifest file '../../build/control_movement/control_movement.egg-info/SOURCES.txt'
+[1.276s] running build
+[1.279s] running build_py
+[1.282s] creating /com.docker.devenvironments.code/ros2_ws/build/control_movement/build
+[1.288s] creating /com.docker.devenvironments.code/ros2_ws/build/control_movement/build/lib
+[1.293s] creating /com.docker.devenvironments.code/ros2_ws/build/control_movement/build/lib/control_movement
+[1.298s] copying control_movement/__init__.py -> /com.docker.devenvironments.code/ros2_ws/build/control_movement/build/lib/control_movement
+[1.305s] copying control_movement/head_publisher.py -> /com.docker.devenvironments.code/ros2_ws/build/control_movement/build/lib/control_movement
+[1.324s] copying control_movement/movement_controller.py -> /com.docker.devenvironments.code/ros2_ws/build/control_movement/build/lib/control_movement
+[1.335s] running install
+[1.339s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.342s]   warnings.warn(
+[1.347s] running install_lib
+[1.354s] creating /com.docker.devenvironments.code/ros2_ws/install/control_movement/lib/python3.10/site-packages/control_movement
+[1.363s] copying /com.docker.devenvironments.code/ros2_ws/build/control_movement/build/lib/control_movement/__init__.py -> /com.docker.devenvironments.code/ros2_ws/install/control_movement/lib/python3.10/site-packages/control_movement
+[1.369s] copying /com.docker.devenvironments.code/ros2_ws/build/control_movement/build/lib/control_movement/head_publisher.py -> /com.docker.devenvironments.code/ros2_ws/install/control_movement/lib/python3.10/site-packages/control_movement
+[1.390s] copying /com.docker.devenvironments.code/ros2_ws/build/control_movement/build/lib/control_movement/movement_controller.py -> /com.docker.devenvironments.code/ros2_ws/install/control_movement/lib/python3.10/site-packages/control_movement
+[1.415s] byte-compiling /com.docker.devenvironments.code/ros2_ws/install/control_movement/lib/python3.10/site-packages/control_movement/__init__.py to __init__.cpython-310.pyc
+[1.438s] byte-compiling /com.docker.devenvironments.code/ros2_ws/install/control_movement/lib/python3.10/site-packages/control_movement/head_publisher.py to head_publisher.cpython-310.pyc
+[1.457s] byte-compiling /com.docker.devenvironments.code/ros2_ws/install/control_movement/lib/python3.10/site-packages/control_movement/movement_controller.py to movement_controller.cpython-310.pyc
+[1.465s] running install_data
+[1.470s]   File "/com.docker.devenvironments.code/ros2_ws/install/control_movement/lib/python3.10/site-packages/control_movement/movement_controller.py", line 18
+[1.475s]     def main()
+[1.484s]               ^
+[1.488s] SyntaxError: expected ':'
+[1.492s] 
+[1.498s] creating /com.docker.devenvironments.code/ros2_ws/install/control_movement/share/ament_index
+[1.503s] creating /com.docker.devenvironments.code/ros2_ws/install/control_movement/share/ament_index/resource_index
+[1.508s] creating /com.docker.devenvironments.code/ros2_ws/install/control_movement/share/ament_index/resource_index/packages
+[1.514s] copying resource/control_movement -> /com.docker.devenvironments.code/ros2_ws/install/control_movement/share/ament_index/resource_index/packages
+[1.522s] copying package.xml -> /com.docker.devenvironments.code/ros2_ws/install/control_movement/share/control_movement
+[1.529s] running install_egg_info
+[1.534s] Copying ../../build/control_movement/control_movement.egg-info to /com.docker.devenvironments.code/ros2_ws/install/control_movement/lib/python3.10/site-packages/control_movement-0.0.0-py3.10.egg-info
+[1.658s] running install_scripts
+[1.700s] Installing controler script to /com.docker.devenvironments.code/ros2_ws/install/control_movement/lib/control_movement
+[1.711s] writing list of installed files to '/com.docker.devenvironments.code/ros2_ws/build/control_movement/install.log'
+[1.756s] Invoked command in '/com.docker.devenvironments.code/ros2_ws/src/control_movement' returned '0': PYTHONPATH=/com.docker.devenvironments.code/ros2_ws/build/control_movement/prefix_override:/com.docker.devenvironments.code/ros2_ws/install/control_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control_movement build --build-base /com.docker.devenvironments.code/ros2_ws/build/control_movement/build install --record /com.docker.devenvironments.code/ros2_ws/build/control_movement/install.log --single-version-externally-managed

@@ -1,0 +1,137 @@
+[0.395s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'control_movement']
+[0.396s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['control_movement'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f0b7bc0f310>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0b7c3e25c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0b7c3e25c0>>, mixin_verb=('build',))
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.434s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.436s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.441s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.442s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.444s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/com.docker.devenvironments.code/ros2_ws'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.497s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_movement) by extensions ['ignore', 'ignore_ament_install']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_movement) by extension 'ignore'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_movement) by extension 'ignore_ament_install'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_movement) by extensions ['colcon_pkg']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_movement) by extension 'colcon_pkg'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_movement) by extensions ['colcon_meta']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_movement) by extension 'colcon_meta'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_movement) by extensions ['ros']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_movement) by extension 'ros'
+[0.533s] DEBUG:colcon.colcon_core.package_identification:Package 'src/control_movement' with type 'ros.ament_python' and name 'control_movement'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/listen_speaker) by extensions ['ignore', 'ignore_ament_install']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/listen_speaker) by extension 'ignore'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/listen_speaker) by extension 'ignore_ament_install'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/listen_speaker) by extensions ['colcon_pkg']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/listen_speaker) by extension 'colcon_pkg'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/listen_speaker) by extensions ['colcon_meta']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/listen_speaker) by extension 'colcon_meta'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/listen_speaker) by extensions ['ros']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/listen_speaker) by extension 'ros'
+[0.549s] DEBUG:colcon.colcon_core.package_identification:Package 'src/listen_speaker' with type 'ros.ament_python' and name 'listen_speaker'
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.554s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.586s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'listen_speaker' in 'src/listen_speaker'
+[0.589s] Level 5:colcon.colcon_core.verb:set package 'control_movement' build argument 'cmake_args' from command line to 'None'
+[0.590s] Level 5:colcon.colcon_core.verb:set package 'control_movement' build argument 'cmake_target' from command line to 'None'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'control_movement' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.592s] Level 5:colcon.colcon_core.verb:set package 'control_movement' build argument 'cmake_clean_cache' from command line to 'False'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'control_movement' build argument 'cmake_clean_first' from command line to 'False'
+[0.594s] Level 5:colcon.colcon_core.verb:set package 'control_movement' build argument 'cmake_force_configure' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'control_movement' build argument 'ament_cmake_args' from command line to 'None'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'control_movement' build argument 'catkin_cmake_args' from command line to 'None'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'control_movement' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.597s] DEBUG:colcon.colcon_core.verb:Building package 'control_movement' with the following arguments: {'ament_cmake_args': None, 'build_base': '/com.docker.devenvironments.code/ros2_ws/build/control_movement', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/com.docker.devenvironments.code/ros2_ws/install/control_movement', 'merge_install': False, 'path': '/com.docker.devenvironments.code/ros2_ws/src/control_movement', 'symlink_install': False, 'test_result_base': None}
+[0.599s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.605s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.607s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/com.docker.devenvironments.code/ros2_ws/src/control_movement' with build type 'ament_python'
+[0.608s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_movement', 'ament_prefix_path')
+[0.618s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/com.docker.devenvironments.code/ros2_ws/install/control_movement/share/control_movement/hook/ament_prefix_path.ps1'
+[0.628s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/com.docker.devenvironments.code/ros2_ws/install/control_movement/share/control_movement/hook/ament_prefix_path.dsv'
+[0.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/com.docker.devenvironments.code/ros2_ws/install/control_movement/share/control_movement/hook/ament_prefix_path.sh'
+[0.641s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.643s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.964s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/com.docker.devenvironments.code/ros2_ws/src/control_movement'
+[0.967s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.969s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/com.docker.devenvironments.code/ros2_ws/src/control_movement': PYTHONPATH=/com.docker.devenvironments.code/ros2_ws/build/control_movement/prefix_override:/com.docker.devenvironments.code/ros2_ws/install/control_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control_movement build --build-base /com.docker.devenvironments.code/ros2_ws/build/control_movement/build install --record /com.docker.devenvironments.code/ros2_ws/build/control_movement/install.log --single-version-externally-managed
+[2.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/com.docker.devenvironments.code/ros2_ws/src/control_movement' returned '0': PYTHONPATH=/com.docker.devenvironments.code/ros2_ws/build/control_movement/prefix_override:/com.docker.devenvironments.code/ros2_ws/install/control_movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/control_movement build --build-base /com.docker.devenvironments.code/ros2_ws/build/control_movement/build install --record /com.docker.devenvironments.code/ros2_ws/build/control_movement/install.log --single-version-externally-managed
+[2.092s] Level 1:colcon.colcon_core.environment:checking '/com.docker.devenvironments.code/ros2_ws/install/control_movement' for CMake module files
+[2.111s] Level 1:colcon.colcon_core.environment:checking '/com.docker.devenvironments.code/ros2_ws/install/control_movement' for CMake config files
+[2.120s] Level 1:colcon.colcon_core.environment:checking '/com.docker.devenvironments.code/ros2_ws/install/control_movement/lib'
+[2.121s] Level 1:colcon.colcon_core.environment:checking '/com.docker.devenvironments.code/ros2_ws/install/control_movement/bin'
+[2.124s] Level 1:colcon.colcon_core.environment:checking '/com.docker.devenvironments.code/ros2_ws/install/control_movement/lib/pkgconfig/control_movement.pc'
+[2.126s] Level 1:colcon.colcon_core.environment:checking '/com.docker.devenvironments.code/ros2_ws/install/control_movement/lib/python3.10/site-packages'
+[2.126s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_movement', 'pythonpath')
+[2.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/com.docker.devenvironments.code/ros2_ws/install/control_movement/share/control_movement/hook/pythonpath.ps1'
+[2.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/com.docker.devenvironments.code/ros2_ws/install/control_movement/share/control_movement/hook/pythonpath.dsv'
+[2.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/com.docker.devenvironments.code/ros2_ws/install/control_movement/share/control_movement/hook/pythonpath.sh'
+[2.149s] Level 1:colcon.colcon_core.environment:checking '/com.docker.devenvironments.code/ros2_ws/install/control_movement/bin'
+[2.152s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_movement)
+[2.156s] INFO:colcon.colcon_core.shell:Creating package script '/com.docker.devenvironments.code/ros2_ws/install/control_movement/share/control_movement/package.ps1'
+[2.164s] INFO:colcon.colcon_core.shell:Creating package descriptor '/com.docker.devenvironments.code/ros2_ws/install/control_movement/share/control_movement/package.dsv'
+[2.170s] INFO:colcon.colcon_core.shell:Creating package script '/com.docker.devenvironments.code/ros2_ws/install/control_movement/share/control_movement/package.sh'
+[2.177s] INFO:colcon.colcon_core.shell:Creating package script '/com.docker.devenvironments.code/ros2_ws/install/control_movement/share/control_movement/package.bash'
+[2.182s] INFO:colcon.colcon_core.shell:Creating package script '/com.docker.devenvironments.code/ros2_ws/install/control_movement/share/control_movement/package.zsh'
+[2.187s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/com.docker.devenvironments.code/ros2_ws/install/control_movement/share/colcon-core/packages/control_movement)
+[2.192s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.194s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.196s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.197s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.211s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.212s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.214s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.215s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.219s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[2.220s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.225s] INFO:colcon.colcon_core.shell:Creating prefix script '/com.docker.devenvironments.code/ros2_ws/install/local_setup.ps1'
+[2.234s] INFO:colcon.colcon_core.shell:Creating prefix util module '/com.docker.devenvironments.code/ros2_ws/install/_local_setup_util_ps1.py'
+[2.243s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/com.docker.devenvironments.code/ros2_ws/install/setup.ps1'
+[2.254s] INFO:colcon.colcon_core.shell:Creating prefix script '/com.docker.devenvironments.code/ros2_ws/install/local_setup.sh'
+[2.262s] INFO:colcon.colcon_core.shell:Creating prefix util module '/com.docker.devenvironments.code/ros2_ws/install/_local_setup_util_sh.py'
+[2.270s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/com.docker.devenvironments.code/ros2_ws/install/setup.sh'
+[2.277s] INFO:colcon.colcon_core.shell:Creating prefix script '/com.docker.devenvironments.code/ros2_ws/install/local_setup.bash'
+[2.282s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/com.docker.devenvironments.code/ros2_ws/install/setup.bash'
+[2.288s] INFO:colcon.colcon_core.shell:Creating prefix script '/com.docker.devenvironments.code/ros2_ws/install/local_setup.zsh'
+[2.294s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/com.docker.devenvironments.code/ros2_ws/install/setup.zsh'

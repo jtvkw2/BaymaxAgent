@@ -1,0 +1,47 @@
+[0.000000] (-) TimerEvent: {}
+[0.001784] (-) JobUnselected: {'identifier': 'listen_speaker'}
+[0.003458] (control_movement) JobQueued: {'identifier': 'control_movement', 'dependencies': OrderedDict()}
+[0.005574] (control_movement) JobStarted: {'identifier': 'control_movement'}
+[0.096727] (-) TimerEvent: {}
+[0.199058] (-) TimerEvent: {}
+[0.301412] (-) TimerEvent: {}
+[0.403031] (-) TimerEvent: {}
+[0.504868] (-) TimerEvent: {}
+[0.607205] (-) TimerEvent: {}
+[0.708846] (-) TimerEvent: {}
+[0.810930] (-) TimerEvent: {}
+[0.833669] (control_movement) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/control_movement', 'build', '--build-base', '/com.docker.devenvironments.code/ros2_ws/build/control_movement/build', 'install', '--record', '/com.docker.devenvironments.code/ros2_ws/build/control_movement/install.log', '--single-version-externally-managed'], 'cwd': '/com.docker.devenvironments.code/ros2_ws/src/control_movement', 'env': {'HOSTNAME': '7738c5808f1b', 'GIT_ASKPASS': '/root/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'BROWSER': '/root/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/com.docker.devenvironments.code/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.80.2', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-6a3b5fdd-0f08-4f0a-9187-ab146d96ab5a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'iron', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-25fd1185-4f51-452b-aa03-87f130672d7d.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/iron/bin:/root/.vscode-server/bin/2ccd690cbff1569e4a83d7c43d45101f817401dc/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-25fd1185-4f51-452b-aa03-87f130672d7d.sock","/tmp/.X11-unix/X1"]', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-26d7a9f451.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-25fd1185-4f51-452b-aa03-87f130672d7d.sock', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X1', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/com.docker.devenvironments.code/ros2_ws/build/control_movement', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/com.docker.devenvironments.code/ros2_ws/build/control_movement/prefix_override:/com.docker.devenvironments.code/ros2_ws/install/control_movement/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[0.911070] (-) TimerEvent: {}
+[1.013875] (-) TimerEvent: {}
+[1.115815] (-) TimerEvent: {}
+[1.151274] (control_movement) StdoutLine: {'line': b'running egg_info\n'}
+[1.156375] (control_movement) StdoutLine: {'line': b'writing ../../build/control_movement/control_movement.egg-info/PKG-INFO\n'}
+[1.162064] (control_movement) StdoutLine: {'line': b'writing dependency_links to ../../build/control_movement/control_movement.egg-info/dependency_links.txt\n'}
+[1.169179] (control_movement) StdoutLine: {'line': b'writing entry points to ../../build/control_movement/control_movement.egg-info/entry_points.txt\n'}
+[1.174625] (control_movement) StdoutLine: {'line': b'writing requirements to ../../build/control_movement/control_movement.egg-info/requires.txt\n'}
+[1.178732] (control_movement) StdoutLine: {'line': b'writing top-level names to ../../build/control_movement/control_movement.egg-info/top_level.txt\n'}
+[1.196534] (control_movement) StdoutLine: {'line': b"reading manifest file '../../build/control_movement/control_movement.egg-info/SOURCES.txt'\n"}
+[1.205569] (control_movement) StdoutLine: {'line': b"writing manifest file '../../build/control_movement/control_movement.egg-info/SOURCES.txt'\n"}
+[1.209438] (control_movement) StdoutLine: {'line': b'running build\n'}
+[1.213510] (control_movement) StdoutLine: {'line': b'running build_py\n'}
+[1.220301] (-) TimerEvent: {}
+[1.221416] (control_movement) StdoutLine: {'line': b'copying control_movement/movement_controller.py -> /com.docker.devenvironments.code/ros2_ws/build/control_movement/build/lib/control_movement\n'}
+[1.225982] (control_movement) StdoutLine: {'line': b'running install\n'}
+[1.230967] (control_movement) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.234654] (control_movement) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.239490] (control_movement) StdoutLine: {'line': b'running install_lib\n'}
+[1.244843] (control_movement) StdoutLine: {'line': b'copying /com.docker.devenvironments.code/ros2_ws/build/control_movement/build/lib/control_movement/movement_controller.py -> /com.docker.devenvironments.code/ros2_ws/install/control_movement/lib/python3.10/site-packages/control_movement\n'}
+[1.251028] (control_movement) StdoutLine: {'line': b'byte-compiling /com.docker.devenvironments.code/ros2_ws/install/control_movement/lib/python3.10/site-packages/control_movement/movement_controller.py to movement_controller.cpython-310.pyc\n'}
+[1.267669] (control_movement) StdoutLine: {'line': b'running install_data\n'}
+[1.273850] (control_movement) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.280531] (control_movement) StdoutLine: {'line': b"removing '/com.docker.devenvironments.code/ros2_ws/install/control_movement/lib/python3.10/site-packages/control_movement-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.285061] (control_movement) StdoutLine: {'line': b'Copying ../../build/control_movement/control_movement.egg-info to /com.docker.devenvironments.code/ros2_ws/install/control_movement/lib/python3.10/site-packages/control_movement-0.0.0-py3.10.egg-info\n'}
+[1.320473] (-) TimerEvent: {}
+[1.383884] (control_movement) StdoutLine: {'line': b'running install_scripts\n'}
+[1.420697] (-) TimerEvent: {}
+[1.423470] (control_movement) StdoutLine: {'line': b'Installing controler script to /com.docker.devenvironments.code/ros2_ws/install/control_movement/lib/control_movement\n'}
+[1.435681] (control_movement) StdoutLine: {'line': b"writing list of installed files to '/com.docker.devenvironments.code/ros2_ws/build/control_movement/install.log'\n"}
+[1.476329] (control_movement) CommandEnded: {'returncode': 0}
+[1.520918] (-) TimerEvent: {}
+[1.583967] (control_movement) JobEnded: {'identifier': 'control_movement', 'rc': 0}
+[1.591743] (-) EventReactorShutdown: {}

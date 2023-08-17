@@ -1,2 +1,5 @@
 .DS_Store
 wavs/
+phoneme_cache
+run*/
+*.pyc
